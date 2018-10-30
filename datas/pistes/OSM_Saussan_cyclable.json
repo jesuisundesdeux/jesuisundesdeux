@@ -1,0 +1,151 @@
+{
+    "type": "FeatureCollection",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 209352123,
+                "name": null,
+                "bridge": null,
+                "tunnel": null,
+                "junction": null,
+                "oneway": "yes",
+                "surface": null,
+                "bicycle": null,
+                "highway": "cycleway",
+                "cycleway": null,
+                "cycleway_l": null,
+                "cycleway_r": null,
+                "zone_maxspeed": null,
+                "maxspeed": null,
+                "osm_user": "",
+                "osm_modif": null,
+                "tags": "",
+                "metro_id": 1
+            },
+            "geometry": {
+                "type": "MultiLineString",
+                "coordinates": [
+                    [
+                        [
+                            3.785120836574275,
+                            43.568206663229127
+                        ],
+                        [
+                            3.785163263294719,
+                            43.568232450343807
+                        ],
+                        [
+                            3.785121875505602,
+                            43.568291685730081
+                        ],
+                        [
+                            3.785047931832902,
+                            43.56839542605924
+                        ],
+                        [
+                            3.784884739804108,
+                            43.568515377787008
+                        ],
+                        [
+                            3.784684455821825,
+                            43.568637756795638
+                        ],
+                        [
+                            3.784508911650304,
+                            43.568750418954949
+                        ],
+                        [
+                            3.784431673668707,
+                            43.568785258864409
+                        ],
+                        [
+                            3.784347773100774,
+                            43.568785325016862
+                        ],
+                        [
+                            3.784282063827168,
+                            43.568776351817334
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 232581881,
+                "name": null,
+                "bridge": null,
+                "tunnel": null,
+                "junction": null,
+                "oneway": null,
+                "surface": null,
+                "bicycle": null,
+                "highway": "tertiary",
+                "cycleway": "lane",
+                "cycleway_l": null,
+                "cycleway_r": null,
+                "zone_maxspeed": null,
+                "maxspeed": null,
+                "osm_user": "",
+                "osm_modif": null,
+                "tags": "",
+                "metro_id": 2
+            },
+            "geometry": {
+                "type": "MultiLineString",
+                "coordinates": [
+                    [
+                        [
+                            3.785120836574275,
+                            43.568206663229127
+                        ],
+                        [
+                            3.785964995074127,
+                            43.567751382351631
+                        ],
+                        [
+                            3.787370892101645,
+                            43.566741893006252
+                        ],
+                        [
+                            3.788339213639623,
+                            43.565995601988327
+                        ],
+                        [
+                            3.789253758088914,
+                            43.565128762049184
+                        ],
+                        [
+                            3.789790486241889,
+                            43.564665698316212
+                        ],
+                        [
+                            3.790219445689307,
+                            43.564374645731689
+                        ],
+                        [
+                            3.790986433323715,
+                            43.563902432056558
+                        ],
+                        [
+                            3.79183315383594,
+                            43.563398588993373
+                        ],
+                        [
+                            3.792343233523333,
+                            43.563069415463495
+                        ]
+                    ]
+                ]
+            }
+        }
+    ]
+}

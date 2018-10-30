@@ -1,0 +1,311 @@
+{
+    "type": "FeatureCollection",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 207753989,
+                "name": null,
+                "bridge": null,
+                "tunnel": null,
+                "junction": null,
+                "oneway": null,
+                "surface": null,
+                "bicycle": null,
+                "highway": "cycleway",
+                "cycleway": null,
+                "cycleway_l": null,
+                "cycleway_r": null,
+                "zone_maxspeed": null,
+                "maxspeed": null,
+                "osm_user": "",
+                "osm_modif": null,
+                "tags": "",
+                "metro_id": 1
+            },
+            "geometry": {
+                "type": "MultiLineString",
+                "coordinates": [
+                    [
+                        [
+                            3.974765379243316,
+                            43.671297923444186
+                        ],
+                        [
+                            3.974886306598177,
+                            43.671315647153897
+                        ],
+                        [
+                            3.975908485278187,
+                            43.671921096956098
+                        ],
+                        [
+                            3.97630787036458,
+                            43.672157690228815
+                        ],
+                        [
+                            3.976399115840584,
+                            43.672157681146714
+                        ],
+                        [
+                            3.976490278295516,
+                            43.672196457418025
+                        ],
+                        [
+                            3.976506363014886,
+                            43.672281891304358
+                        ],
+                        [
+                            3.976491154253047,
+                            43.672320632542743
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 207753988,
+                "name": null,
+                "bridge": null,
+                "tunnel": null,
+                "junction": null,
+                "oneway": null,
+                "surface": null,
+                "bicycle": null,
+                "highway": "cycleway",
+                "cycleway": null,
+                "cycleway_l": null,
+                "cycleway_r": null,
+                "zone_maxspeed": null,
+                "maxspeed": null,
+                "osm_user": "",
+                "osm_modif": null,
+                "tags": "",
+                "metro_id": 2
+            },
+            "geometry": {
+                "type": "MultiLineString",
+                "coordinates": [
+                    [
+                        [
+                            3.976491154253047,
+                            43.672320632542743
+                        ],
+                        [
+                            3.97650641993357,
+                            43.672394375390176
+                        ],
+                        [
+                            3.977584636189667,
+                            43.673026753414021
+                        ],
+                        [
+                            3.977904201519034,
+                            43.673169301312278
+                        ],
+                        [
+                            3.978420752852549,
+                            43.673390795751786
+                        ],
+                        [
+                            3.978815639685214,
+                            43.673544271980212
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 222067148,
+                "name": null,
+                "bridge": "yes",
+                "tunnel": null,
+                "junction": null,
+                "oneway": null,
+                "surface": null,
+                "bicycle": null,
+                "highway": "cycleway",
+                "cycleway": null,
+                "cycleway_l": null,
+                "cycleway_r": null,
+                "zone_maxspeed": null,
+                "maxspeed": null,
+                "osm_user": "",
+                "osm_modif": null,
+                "tags": "",
+                "metro_id": 3
+            },
+            "geometry": {
+                "type": "MultiLineString",
+                "coordinates": [
+                    [
+                        [
+                            3.978815639685214,
+                            43.673544271980212
+                        ],
+                        [
+                            3.978959677696868,
+                            43.673615416013746
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 222067150,
+                "name": null,
+                "bridge": null,
+                "tunnel": null,
+                "junction": null,
+                "oneway": null,
+                "surface": null,
+                "bicycle": null,
+                "highway": "cycleway",
+                "cycleway": null,
+                "cycleway_l": null,
+                "cycleway_r": null,
+                "zone_maxspeed": null,
+                "maxspeed": null,
+                "osm_user": "",
+                "osm_modif": null,
+                "tags": "",
+                "metro_id": 4
+            },
+            "geometry": {
+                "type": "MultiLineString",
+                "coordinates": [
+                    [
+                        [
+                            3.978959677696868,
+                            43.673615416013746
+                        ],
+                        [
+                            3.979165891744462,
+                            43.67382809096496
+                        ],
+                        [
+                            3.979210430005327,
+                            43.673808072722245
+                        ],
+                        [
+                            3.979256815329498,
+                            43.673787317931769
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 207753990,
+                "name": null,
+                "bridge": null,
+                "tunnel": null,
+                "junction": null,
+                "oneway": null,
+                "surface": null,
+                "bicycle": null,
+                "highway": "cycleway",
+                "cycleway": null,
+                "cycleway_l": null,
+                "cycleway_r": null,
+                "zone_maxspeed": null,
+                "maxspeed": null,
+                "osm_user": "",
+                "osm_modif": null,
+                "tags": "",
+                "metro_id": 5
+            },
+            "geometry": {
+                "type": "MultiLineString",
+                "coordinates": [
+                    [
+                        [
+                            3.979256815329498,
+                            43.673787317931769
+                        ],
+                        [
+                            3.979612430227802,
+                            43.674159815280618
+                        ],
+                        [
+                            3.97995808542788,
+                            43.674413617353387
+                        ],
+                        [
+                            3.980135116660825,
+                            43.674623133982777
+                        ],
+                        [
+                            3.980309735895695,
+                            43.675024976214537
+                        ],
+                        [
+                            3.980567144381924,
+                            43.675374149059493
+                        ],
+                        [
+                            3.980567691699053,
+                            43.675398890803528
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 322125224,
+                "name": null,
+                "bridge": null,
+                "tunnel": null,
+                "junction": null,
+                "oneway": null,
+                "surface": null,
+                "bicycle": null,
+                "highway": "cycleway",
+                "cycleway": null,
+                "cycleway_l": null,
+                "cycleway_r": null,
+                "zone_maxspeed": null,
+                "maxspeed": null,
+                "osm_user": "",
+                "osm_modif": null,
+                "tags": "",
+                "metro_id": 6
+            },
+            "geometry": {
+                "type": "MultiLineString",
+                "coordinates": [
+                    [
+                        [
+                            3.983970790940012,
+                            43.682419906424734
+                        ],
+                        [
+                            3.983802149373822,
+                            43.68242683078212
+                        ],
+                        [
+                            3.983592350731952,
+                            43.682318761862057
+                        ]
+                    ]
+                ]
+            }
+        }
+    ]
+}
