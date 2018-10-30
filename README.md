@@ -8,7 +8,9 @@ Le but du projet **JeSuisUnDesDeux** est de :
 - Recenser les pistes cyclables de montpellier en utilisant les données [OpenData de la ville](http://data.montpellier3m.fr/dataset/pistes-cyclables-ville-de-montpellier)
 - Récenser les zones dangereuses et manque d'entretient
 - Récenser les zones d'incivilité (générallement les GCUM)
+- Récenser le manque de parking à vélo
 - Récenser les vols ou dégradation
+- etc ...
  
 
 Par la suite, d'autre type de recensement pourront se greffer, comme par exemple les stationnement abusif, luminaire deffectueux, poubelle non ramassé, etc ...
