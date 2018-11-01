@@ -21,6 +21,6 @@ Résumé technique :
 - Stockage des nouvelles entrées via PostgreSQL ??
 
 
-**Demo**: https://umap.openstreetmap.fr/en/map/jesuisundesdeux_260411#12/43.6579/4.1233
+**Demo**: https://umap.openstreetmap.fr/en/map/jesuisundesdeux_261253#11/43.5602/3.7010
 
 **Note**: Durant la phase de dévéloppement ce projet est concentré sur la region de Montpellier
