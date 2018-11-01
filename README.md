@@ -1,6 +1,8 @@
 # JeSuisUnDesDeux
 
-Ce projet fait suite à la mobilisation des cyclistes notamment une majorité de vélotaffeur de la région de Montpellier
+![logo](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/raw/master/logo.jpg)
+
+Ce projet fait suite [à la mobilisation](https://twitter.com/hashtag/jesuisundesdeux?f=tweets) des cyclistes, notamment une majorité de vélotaffeur de la région de Montpellier suite [aux propos de Philippe Saurel](https://www.youtube.com/watch?v=pbG00kJqD1Q&feature=youtu.be&t=78)
 
 
 Le but du projet **JeSuisUnDesDeux** est de :
@@ -22,5 +24,7 @@ Résumé technique :
 
 
 **Demo**: https://umap.openstreetmap.fr/en/map/jesuisundesdeux_261253#11/43.5602/3.7010
+
+**Capture** : ![demo](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/raw/master/demo.png)
 
 **Note**: Durant la phase de dévéloppement ce projet est concentré sur la region de Montpellier
