@@ -22,8 +22,11 @@ Résumé technique :
 - IOS ou Android pour l'ajout de nouvelle entré lors de son parcours en vélo
 - Stockage des nouvelles entrées via PostgreSQL ??
 
+**Map**
+ - [Disponibilités vélos velomag](https://umap.openstreetmap.fr/en/map/velomag-velos-disponibles_262046)
+ - [Disponibilités parcages velomag](https://umap.openstreetmap.fr/en/map/velomag-parcages-disponibles_262076)
 
-**Demo**: https://umap.openstreetmap.fr/en/map/jesuisundesdeux_261253#11/43.5602/3.7010
+**En Cours**: https://umap.openstreetmap.fr/en/map/jesuisundesdeux_261253#11/43.5602/3.7010
 
 **Capture** : ![demo](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/raw/master/demo.png)
 

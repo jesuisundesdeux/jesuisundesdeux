@@ -1,0 +1,182 @@
+{
+  "type": "umap",
+  "properties": {
+    "easing": true,
+    "tilelayersControl": false,
+    "measureControl": false,
+    "embedControl": true,
+    "editinosmControl": false,
+    "fullscreenControl": true,
+    "locateControl": true,
+    "searchControl": true,
+    "datalayersControl": true,
+    "zoomControl": true,
+    "shortCredit": "JeSuisUnDesDeux",
+    "showLabel": null,
+    "slideshow": {
+      "active": false
+    },
+    "captionBar": true,
+    "limitBounds": {
+      "south": 43.544193,
+      "west": 3.78376,
+      "north": 43.645641,
+      "east": 4.065285
+    },
+    "tilelayer": {
+      "minZoom": 0,
+      "maxZoom": 20,
+      "attribution": "Map tiles by [[http://cartodb.com/attributions#basemaps|CartoDB]], under [[https://creativecommons.org/licenses/by/3.0/|CC BY 3.0]]. map data © [[http://osm.org/copyright|OpenStreetMap contributors]] under ODbL ",
+      "url_template": "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+      "name": "OSM Positron (Carto)",
+      "tms": false
+    },
+    "licence": {
+      "name": "ODbl",
+      "url": "http://opendatacommons.org/licenses/odbl/"
+    },
+    "description": "# Disponibilités des paracages velomags\n\nIndique les disponibilité des parcages velomag dans la ville de Montpellier\n\nCe projet est issue de [[https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux|JeSuisUnDesDeux]]\n\nLes données sont actualisés toutes les 30 minutes",
+    "name": "Velomag parcages disponibles",
+    "onLoadPanel": "caption",
+    "displayPopupFooter": false,
+    "miniMap": false,
+    "moreControl": true,
+    "scaleControl": false,
+    "scrollWheelZoom": true,
+    "zoom": 6
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2,
+      51
+    ]
+  },
+  "layers": [
+    {
+      "type": "FeatureCollection",
+      "features": [],
+      "_umap_options": {
+        "displayOnLoad": true,
+        "browsable": true,
+        "remoteData": {
+          "url": "https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/raw/master/datas/pistes/VilleMTP_AggloMTP_PistesCyclables.geojson",
+          "format": "geojson",
+          "proxy": true,
+          "from": "14"
+        },
+        "name": "Piste cyclable cyclable Montpellier",
+        "id": 676816,
+        "opacity": "0.4",
+        "color": "Green"
+      }
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [],
+      "_umap_options": {
+        "displayOnLoad": true,
+        "browsable": true,
+        "remoteData": {
+          "url": "https://umap.openstreetmap.fr/fr/datalayer/669919/",
+          "format": "geojson",
+          "from": "16"
+        },
+        "name": "Signalement Piste Cyclable incivilité",
+        "id": 676818,
+        "iconClass": "Default",
+        "type": "Cluster",
+        "cluster": {
+          "radius": 80
+        },
+        "color": "OrangeRed",
+        "iconUrl": "/uploads/pictogram/police-24_1.png"
+      }
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [],
+      "_umap_options": {
+        "displayOnLoad": true,
+        "browsable": true,
+        "remoteData": {
+          "format": "geojson",
+          "url": "http://data.montpellier3m.fr/sites/default/files/ressources/MMM_MMM_Chantiers.json",
+          "proxy": true,
+          "from": "14"
+        },
+        "name": "Chantier Montpellier",
+        "color": "Red",
+        "id": 675782,
+        "opacity": "0.1"
+      }
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [],
+      "_umap_options": {
+        "displayOnLoad": true,
+        "browsable": true,
+        "remoteData": {
+          "url": "https://jesuisundesdeux.gitlab.io/jesuisundesdeux/datas/velomag/velomag.csv",
+          "format": "csv",
+          "proxy": true
+        },
+        "name": "Disponibilité parcages velomag heatmap",
+        "id": 676885,
+        "color": "SeaGreen",
+        "showLabel": null,
+        "popupContentTemplate": "# Station N°  {na}\n\nVélo dispo: {av} \nPlace libre: {fr} \nNb places: {to} \nLecteur Carte Bleu:{cb}\n",
+        "iconUrl": "/uploads/pictogram/bicycle-24-white.png",
+        "type": "Heat",
+        "cluster": {
+          "radius": 80
+        },
+        "heat": {
+          "intensityProperty": "fr"
+        }
+      }
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [],
+      "_umap_options": {
+        "displayOnLoad": true,
+        "browsable": true,
+        "remoteData": {
+          "url": "http://data.montpellier3m.fr/sites/default/files/ressources/MMM_MMM_VeloParc.geojson",
+          "format": "geojson",
+          "proxy": true,
+          "from": "16"
+        },
+        "name": "Parc vélo TAM",
+        "color": "Grey",
+        "id": 675783,
+        "type": "Cluster",
+        "cluster": {
+          "radius": 80
+        },
+        "iconUrl": "/uploads/pictogram/parking-24_1.png"
+      }
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [],
+      "_umap_options": {
+        "displayOnLoad": true,
+        "browsable": true,
+        "remoteData": {
+          "url": "https://jesuisundesdeux.gitlab.io/jesuisundesdeux/datas/velomag/velomag.csv",
+          "format": "csv",
+          "proxy": true,
+          "from": "15"
+        },
+        "name": "Disponibilité parcages velomag",
+        "iconClass": "Ball",
+        "showLabel": true,
+        "id": 676886,
+        "popupContentTemplate": "# Station velomag N°  {na}\n\nVélo dispo: {av} \nPlace libre: {fr} \nNb places: {to} \nLecteur Carte Bleu:{cb}\n"
+      }
+    }
+  ]
+}
