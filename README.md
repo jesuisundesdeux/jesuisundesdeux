@@ -23,10 +23,9 @@ Résumé technique :
 - Stockage des nouvelles entrées via PostgreSQL ??
 
 **Map**
+ - [Mega carte, accidents, incivilités, parcours velotafeurs, pistes cyclables, et ...](https://umap.openstreetmap.fr/en/map/jesuisundesdeux_261253)
  - [Disponibilités vélos velomag](https://umap.openstreetmap.fr/en/map/velomag-velos-disponibles_262046)
  - [Disponibilités parcages velomag](https://umap.openstreetmap.fr/en/map/velomag-parcages-disponibles_262076)
-
-**En Cours**: https://umap.openstreetmap.fr/en/map/jesuisundesdeux_261253#11/43.5602/3.7010
 
 **Capture** : ![demo](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/raw/master/demo.png)
 

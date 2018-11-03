@@ -1,0 +1,668 @@
+{
+  "type": "umap",
+  "properties": {
+    "easing": true,
+    "embedControl": true,
+    "fullscreenControl": true,
+    "searchControl": true,
+    "datalayersControl": true,
+    "zoomControl": true,
+    "slideshow": {},
+    "captionBar": true,
+    "limitBounds": {
+      "south": 43.188156,
+      "west": 2.341461,
+      "north": 43.99973,
+      "east": 4.593658
+    },
+    "tilelayer": {
+      "minZoom": 0,
+      "maxZoom": 20,
+      "attribution": "Map tiles by [[http://cartodb.com/attributions#basemaps|CartoDB]], under [[https://creativecommons.org/licenses/by/3.0/|CC BY 3.0]]. map data © [[http://osm.org/copyright|OpenStreetMap contributors]] under ODbL ",
+      "url_template": "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+      "name": "OSM Positron (Carto)",
+      "tms": false
+    },
+    "licence": {
+      "name": "ODbl",
+      "url": "http://opendatacommons.org/licenses/odbl/"
+    },
+    "description": "# JeSuisUnDesDeux\n\nCe projet fait suite [[https://twitter.com/hashtag/jesuisundesdeux?f=tweets|à la mobilisation]] des cyclistes, notamment une majorité de vélotaffeur de la région de Montpellier suite [[https://www.youtube.com/watch?v=pbG00kJqD1Q&feature=youtu.be&t=78|aux propos de Philippe Saurel]]\n\n\nLe but du projet **JeSuisUnDesDeux** est de :\n\n- Recenser les pistes cyclables de montpellier en utilisant les données [[http://data.montpellier3m.fr/dataset/pistes-cyclables-ville-de-montpellier|OpenData de la ville]]\n- Récenser les zones dangereuses et manque d'entretient\n- Récenser les zones d'incivilité (générallement les GCUM)\n- Récenser le manque de parking à vélo\n- Récenser les vols ou dégradation\n- etc ...",
+    "name": "JeSuisUnDesDeux",
+    "onLoadPanel": "caption",
+    "displayPopupFooter": false,
+    "miniMap": false,
+    "moreControl": true,
+    "scaleControl": true,
+    "scrollWheelZoom": true,
+    "zoom": 6
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2,
+      51
+    ]
+  },
+  "layers": [
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Fin de piste cyclable dans un arbre",
+            "description": "Fin de piste cyclable dans un arbre"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              3.97645,
+              43.672373
+            ]
+          }
+        }
+      ],
+      "_umap_options": {
+        "displayOnLoad": true,
+        "browsable": true,
+        "name": "Signalement piste cyclable zone dangereuse",
+        "id": 675818,
+        "remoteData": {},
+        "showLabel": false,
+        "labelInteractive": false,
+        "type": "Cluster",
+        "cluster": {
+          "radius": 100
+        },
+        "iconClass": "Default",
+        "iconUrl": "https://cdn4.iconfinder.com/data/icons/sketchdock-ecommerce-icons/alert-triangle-red.png",
+        "color": "OrangeRed"
+      }
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [],
+      "_umap_options": {
+        "displayOnLoad": false,
+        "browsable": true,
+        "name": "Piste cyclable Baillargues",
+        "id": 675819
+      }
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [],
+      "_umap_options": {
+        "displayOnLoad": false,
+        "browsable": true,
+        "name": "Piste cyclable Castries",
+        "id": 675820
+      }
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [],
+      "_umap_options": {
+        "displayOnLoad": false,
+        "browsable": true,
+        "name": "Piste cyclable Clapiers",
+        "id": 675821
+      }
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [],
+      "_umap_options": {
+        "displayOnLoad": false,
+        "browsable": true,
+        "name": "Piste cyclable cournonsec",
+        "id": 675822
+      }
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [],
+      "_umap_options": {
+        "displayOnLoad": false,
+        "browsable": true,
+        "name": "Piste cyclable cournonteral",
+        "id": 675823
+      }
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [],
+      "_umap_options": {
+        "displayOnLoad": false,
+        "browsable": true,
+        "name": "Piste cyclable cres",
+        "id": 675824
+      }
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [],
+      "_umap_options": {
+        "displayOnLoad": false,
+        "browsable": true,
+        "name": "Piste cyclable fabregues",
+        "id": 675825
+      }
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [],
+      "_umap_options": {
+        "displayOnLoad": false,
+        "browsable": true,
+        "name": "Piste cyclable Jacou",
+        "id": 675826
+      }
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [],
+      "_umap_options": {
+        "displayOnLoad": false,
+        "browsable": true,
+        "name": "Piste cyclable juvignac",
+        "id": 675827
+      }
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [],
+      "_umap_options": {
+        "displayOnLoad": false,
+        "browsable": true,
+        "name": "Piste cyclable Lattes",
+        "id": 675828
+      }
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [],
+      "_umap_options": {
+        "displayOnLoad": false,
+        "browsable": true,
+        "name": "Piste cyclable Montferrier",
+        "id": 675829
+      }
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [],
+      "_umap_options": {
+        "displayOnLoad": false,
+        "browsable": true,
+        "name": "Piste cyclable Perols",
+        "id": 675830
+      }
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [],
+      "_umap_options": {
+        "displayOnLoad": false,
+        "browsable": true,
+        "name": "undefined",
+        "id": 675831
+      }
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [],
+      "_umap_options": {
+        "displayOnLoad": false,
+        "browsable": true,
+        "name": "Piste cyclable Pignan",
+        "id": 675832
+      }
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [],
+      "_umap_options": {
+        "displayOnLoad": false,
+        "browsable": true,
+        "name": "Piste cyclable Prades le Lez",
+        "id": 675833
+      }
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [],
+      "_umap_options": {
+        "displayOnLoad": false,
+        "browsable": true,
+        "name": "Piste cyclable saint drezery",
+        "id": 675834
+      }
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [],
+      "_umap_options": {
+        "displayOnLoad": false,
+        "browsable": true,
+        "name": "Piste cyclable Saint george",
+        "id": 675835
+      }
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [],
+      "_umap_options": {
+        "displayOnLoad": false,
+        "browsable": true,
+        "name": "Piste cyclable Saint jean de védas",
+        "id": 675836
+      }
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [],
+      "_umap_options": {
+        "displayOnLoad": false,
+        "browsable": true,
+        "name": "Piste cyclable Saussan",
+        "id": 675837
+      }
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [],
+      "_umap_options": {
+        "displayOnLoad": false,
+        "browsable": true,
+        "name": "Piste cyclable Sussargues",
+        "id": 675838
+      }
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [],
+      "_umap_options": {
+        "displayOnLoad": false,
+        "browsable": true,
+        "name": "Piste cyclable Vandargues",
+        "id": 675839
+      }
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [],
+      "_umap_options": {
+        "displayOnLoad": false,
+        "browsable": true,
+        "name": "Piste cyclable Villeneuve",
+        "id": 675840
+      }
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [],
+      "_umap_options": {
+        "displayOnLoad": true,
+        "browsable": true,
+        "remoteData": {
+          "url": "https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/raw/master/datas/pistes/VilleMTP_AggloMTP_PistesCyclables.geojson",
+          "format": "geojson",
+          "proxy": true
+        },
+        "name": "Piste cyclable cyclable Montpellier",
+        "id": 675757,
+        "opacity": "0.4",
+        "color": "MediumVioletRed"
+      }
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [],
+      "_umap_options": {
+        "displayOnLoad": true,
+        "browsable": true,
+        "name": "Parcours Vélotaf",
+        "remoteData": {
+          "format": "geojson",
+          "url": "https://umap.openstreetmap.fr/fr/datalayer/666201/",
+          "dynamic": false,
+          "from": "12"
+        },
+        "id": 675758,
+        "type": "Default",
+        "cluster": {},
+        "iconClass": "Circle",
+        "opacity": "0.2",
+        "heat": {},
+        "color": "Green"
+      }
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "description": "Débris de verre pratiquement toute l'année",
+            "name": "⚠️ Bris de verre"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              3.906155,
+              43.625856
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Av Clémenceau catastrophique",
+            "description": "entre les voitures en double file en direction du centre ville et celles qui empruntent la voie bus à contre sens pour éviter les embouteillages, il est très dangereux de circuler sur cet axe"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              3.87216,
+              43.603403
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Av. François Delmas",
+            "description": "Débris de verre sur toute l'Avenue."
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              3.88974,
+              43.621118
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "carrefour dangereux",
+            "description": "La signalétique met en danger les cyclistes à ce croisement. "
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              3.900028,
+              43.610232
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "carrefour extrêmement dangereux",
+            "description": "les véhicules de la vieille poste ont le feu vert en même temps que les piétons qui veulent traverser l'avenue A. Nobel. Un signal lumineux a été rajouté mais le risque de se faire renverser à chaque passage est toujours le même. Les élus ne veulent pas entendre raison sur ce point et laisser 10secondes à l'appel des piétons sous prétexte que l'Av de la V. poste est une pénétrante importante et que les véhicules ne peuvent pas attendre..."
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              3.910321,
+              43.616186
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "GCUM",
+            "description": "Garé comme une merde dès que c'est l'heure de déposer les bambins"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              3.904701,
+              43.621231
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "GCUM",
+            "description": "Garé comme une merde quand c'est l'heure de déposer/récupérer les bambins"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              3.899058,
+              43.619052
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "GCUM"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              3.878689,
+              43.603392
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "GCUM fréquent",
+            "description": "24 Oct 2018 {{https://pbs.twimg.com/media/DqScMT7W4AEmlz4.jpg}}\n\n9 Oct 2018 {{https://pbs.twimg.com/media/DpDelNRXUAAV6ek.jpg}}\n\n3 Oct 2018 {{https://pbs.twimg.com/media/DomVHPUWwAQ-rSV.jpg}}\n\n3 Oct 2018 {{https://pbs.twimg.com/media/DomXSO4W4AAP17I.jpg}}\n\n29 Sep 2018 {{https://pbs.twimg.com/media/DoRgz51WkAEeFHm.jpg}}\n\n22 Sep 2018 {{https://pbs.twimg.com/media/DnuFlgyWwAYfvpX.jpg}}"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              3.870084,
+              43.607465
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "GCUM fréquent",
+            "description": "24 Oct 2018 {{https://pbs.twimg.com/media/DqScMT7W4AEmlz4.jpg}}\n\n9 Oct 2018 {{https://pbs.twimg.com/media/DpDelNRXUAAV6ek.jpg}}\n\n3 Oct 2018 {{https://pbs.twimg.com/media/DomVHPUWwAQ-rSV.jpg}}\n\n3 Oct 2018 {{https://pbs.twimg.com/media/DomXSO4W4AAP17I.jpg}}\n\n29 Sep 2018 {{https://pbs.twimg.com/media/DoRgz51WkAEeFHm.jpg}}\n\n22 Sep 2018 {{https://pbs.twimg.com/media/DnuFlgyWwAYfvpX.jpg}}"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              3.870084,
+              43.607465
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "GCUM occasionel",
+            "description": "29 Sep 2018 {{https://pbs.twimg.com/media/DoQY-VAXcAAOfPE.jpg:large}}\n\n29 Sep 2018 {{https://pbs.twimg.com/media/DoQY-U4XUAAQR2a.jpg:large}}\n\n29 Sep 2018 {{https://pbs.twimg.com/media/DoQY-U9XsAAQiED.jpg:large}}\n"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              3.905999,
+              43.593549
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "stationnement vélo insuffisant"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              3.881816,
+              43.609424
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "stationnement vélo insuffisant"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              3.880223,
+              43.609071
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Stationnements de parents d'élèves de Sainte Thérèse"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              3.866431,
+              43.613638
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Poubelle",
+            "description": "02 Nov 2018 {{https://pbs.twimg.com/media/Dq_7nKsWwAAsl6w.jpg}}\n\n02 Nov 2018 {{https://pbs.twimg.com/media/Dq_7j9sWoAAxicv.jpg:large}}"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              3.915194,
+              43.60257
+            ]
+          }
+        }
+      ],
+      "_umap_options": {
+        "displayOnLoad": true,
+        "browsable": true,
+        "remoteData": {
+          "format": "geojson"
+        },
+        "name": "Signalement Piste Cyclable incivilité",
+        "id": 675843,
+        "iconClass": "Default",
+        "type": "Cluster",
+        "cluster": {
+          "radius": 100
+        },
+        "color": "OrangeRed",
+        "iconUrl": "/uploads/pictogram/police-24_1.png"
+      }
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [],
+      "_umap_options": {
+        "displayOnLoad": true,
+        "browsable": true,
+        "remoteData": {
+          "format": "geojson",
+          "url": "http://data.montpellier3m.fr/sites/default/files/ressources/MMM_MMM_Chantiers.json",
+          "proxy": true,
+          "from": "12"
+        },
+        "name": "Chantier Montpellier",
+        "color": "Red",
+        "id": 675782
+      }
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [],
+      "_umap_options": {
+        "displayOnLoad": true,
+        "browsable": true,
+        "remoteData": {
+          "url": "http://data.montpellier3m.fr/sites/default/files/ressources/MMM_MMM_VeloParc.geojson",
+          "format": "geojson",
+          "proxy": true,
+          "from": "12"
+        },
+        "name": "Parc vélos",
+        "color": "#0E75BA",
+        "id": 675845,
+        "type": "Cluster",
+        "cluster": {
+          "radius": 100
+        },
+        "iconUrl": "/uploads/pictogram/parking-24_1.png"
+      }
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [],
+      "_umap_options": {
+        "displayOnLoad": true,
+        "browsable": true,
+        "remoteData": {
+          "url": "https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/raw/master/datas/accidents/accidents_insee-converted.csv",
+          "proxy": true,
+          "format": "csv"
+        },
+        "name": "Accident heatmap",
+        "type": "Heat",
+        "heat": {
+          "radius": 60,
+          "intensityProperty": "nbimp"
+        },
+        "id": 675846,
+        "popupContentTemplate": "",
+        "showLabel": true,
+        "cluster": {
+          "radius": 80
+        }
+      }
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [],
+      "_umap_options": {
+        "displayOnLoad": false,
+        "browsable": true,
+        "name": "Accident clustered",
+        "id": 675856
+      }
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [],
+      "_umap_options": {
+        "displayOnLoad": true,
+        "browsable": true,
+        "remoteData": {
+          "url": "https://jesuisundesdeux.gitlab.io/jesuisundesdeux/datas/velomag/velomag.csv",
+          "format": "csv",
+          "proxy": true,
+          "from": "12"
+        },
+        "name": "Disponibilité velomag",
+        "id": 676663,
+        "color": "#004494",
+        "showLabel": null,
+        "popupContentTemplate": "# Station velomag N°  {na}\n\nVélo dispo: {av} \nPlace libre: {fr} \nNb places: {to} \nLecteur Carte Bleu:{cb}\n",
+        "iconUrl": "/uploads/pictogram/bicycle-24-white.png",
+        "type": "Cluster",
+        "cluster": {
+          "radius": 100
+        }
+      }
+    }
+  ]
+}
