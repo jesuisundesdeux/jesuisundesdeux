@@ -27,7 +27,7 @@
       "name": "ODbl",
       "url": "http://opendatacommons.org/licenses/odbl/"
     },
-    "description": "# JeSuisUnDesDeux\n\nCe projet fait suite [[https://twitter.com/hashtag/jesuisundesdeux?f=tweets|à la mobilisation]] des cyclistes, notamment une majorité de vélotaffeur de la région de Montpellier suite [[https://www.youtube.com/watch?v=pbG00kJqD1Q&feature=youtu.be&t=78|aux propos de Philippe Saurel]]\n\n\nLe but du projet **JeSuisUnDesDeux** est de :\n\n- Recenser les pistes cyclables de montpellier en utilisant les données [[http://data.montpellier3m.fr/dataset/pistes-cyclables-ville-de-montpellier|OpenData de la ville]]\n- Récenser les zones dangereuses et manque d'entretient\n- Récenser les zones d'incivilité (générallement les GCUM)\n- Récenser le manque de parking à vélo\n- Récenser les vols ou dégradation\n- etc ...",
+    "description": "# JeSuisUnDesDeux\n\nCe projet fait suite [[https://twitter.com/hashtag/jesuisundesdeux?f=tweets|à la mobilisation]] des cyclistes, notamment une majorité de vélotaffeur de la région de Montpellier suite [[https://www.youtube.com/watch?v=pbG00kJqD1Q&feature=youtu.be&t=78|aux propos de Philippe Saurel]]\n\n\nLe but du projet **[[https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux|JeSuisUnDesDeux]]** est de :\n\n- Recenser les pistes cyclables de montpellier en utilisant les données [[http://data.montpellier3m.fr/dataset/pistes-cyclables-ville-de-montpellier|OpenData de la ville]]\n- Récenser les zones dangereuses et manque d'entretient\n- Récenser les zones d'incivilité (générallement les GCUM)\n- Récenser le manque de parking à vélo\n- Récenser les vols ou dégradation\n- etc ...",
     "name": "JeSuisUnDesDeux",
     "onLoadPanel": "caption",
     "displayPopupFooter": false,
@@ -45,41 +45,6 @@
     ]
   },
   "layers": [
-    {
-      "type": "FeatureCollection",
-      "features": [
-        {
-          "type": "Feature",
-          "properties": {
-            "name": "Fin de piste cyclable dans un arbre",
-            "description": "Fin de piste cyclable dans un arbre"
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              3.97645,
-              43.672373
-            ]
-          }
-        }
-      ],
-      "_umap_options": {
-        "displayOnLoad": true,
-        "browsable": true,
-        "name": "Signalement piste cyclable zone dangereuse",
-        "id": 675818,
-        "remoteData": {},
-        "showLabel": false,
-        "labelInteractive": false,
-        "type": "Cluster",
-        "cluster": {
-          "radius": 100
-        },
-        "iconClass": "Default",
-        "iconUrl": "https://cdn4.iconfinder.com/data/icons/sketchdock-ecommerce-icons/alert-triangle-red.png",
-        "color": "OrangeRed"
-      }
-    },
     {
       "type": "FeatureCollection",
       "features": [],
@@ -341,233 +306,6 @@
     },
     {
       "type": "FeatureCollection",
-      "features": [
-        {
-          "type": "Feature",
-          "properties": {
-            "description": "Débris de verre pratiquement toute l'année",
-            "name": "⚠️ Bris de verre"
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              3.906155,
-              43.625856
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "name": "Av Clémenceau catastrophique",
-            "description": "entre les voitures en double file en direction du centre ville et celles qui empruntent la voie bus à contre sens pour éviter les embouteillages, il est très dangereux de circuler sur cet axe"
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              3.87216,
-              43.603403
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "name": "Av. François Delmas",
-            "description": "Débris de verre sur toute l'Avenue."
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              3.88974,
-              43.621118
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "name": "carrefour dangereux",
-            "description": "La signalétique met en danger les cyclistes à ce croisement. "
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              3.900028,
-              43.610232
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "name": "carrefour extrêmement dangereux",
-            "description": "les véhicules de la vieille poste ont le feu vert en même temps que les piétons qui veulent traverser l'avenue A. Nobel. Un signal lumineux a été rajouté mais le risque de se faire renverser à chaque passage est toujours le même. Les élus ne veulent pas entendre raison sur ce point et laisser 10secondes à l'appel des piétons sous prétexte que l'Av de la V. poste est une pénétrante importante et que les véhicules ne peuvent pas attendre..."
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              3.910321,
-              43.616186
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "name": "GCUM",
-            "description": "Garé comme une merde dès que c'est l'heure de déposer les bambins"
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              3.904701,
-              43.621231
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "name": "GCUM",
-            "description": "Garé comme une merde quand c'est l'heure de déposer/récupérer les bambins"
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              3.899058,
-              43.619052
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "name": "GCUM"
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              3.878689,
-              43.603392
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "name": "GCUM fréquent",
-            "description": "24 Oct 2018 {{https://pbs.twimg.com/media/DqScMT7W4AEmlz4.jpg}}\n\n9 Oct 2018 {{https://pbs.twimg.com/media/DpDelNRXUAAV6ek.jpg}}\n\n3 Oct 2018 {{https://pbs.twimg.com/media/DomVHPUWwAQ-rSV.jpg}}\n\n3 Oct 2018 {{https://pbs.twimg.com/media/DomXSO4W4AAP17I.jpg}}\n\n29 Sep 2018 {{https://pbs.twimg.com/media/DoRgz51WkAEeFHm.jpg}}\n\n22 Sep 2018 {{https://pbs.twimg.com/media/DnuFlgyWwAYfvpX.jpg}}"
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              3.870084,
-              43.607465
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "name": "GCUM fréquent",
-            "description": "24 Oct 2018 {{https://pbs.twimg.com/media/DqScMT7W4AEmlz4.jpg}}\n\n9 Oct 2018 {{https://pbs.twimg.com/media/DpDelNRXUAAV6ek.jpg}}\n\n3 Oct 2018 {{https://pbs.twimg.com/media/DomVHPUWwAQ-rSV.jpg}}\n\n3 Oct 2018 {{https://pbs.twimg.com/media/DomXSO4W4AAP17I.jpg}}\n\n29 Sep 2018 {{https://pbs.twimg.com/media/DoRgz51WkAEeFHm.jpg}}\n\n22 Sep 2018 {{https://pbs.twimg.com/media/DnuFlgyWwAYfvpX.jpg}}"
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              3.870084,
-              43.607465
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "name": "GCUM occasionel",
-            "description": "29 Sep 2018 {{https://pbs.twimg.com/media/DoQY-VAXcAAOfPE.jpg:large}}\n\n29 Sep 2018 {{https://pbs.twimg.com/media/DoQY-U4XUAAQR2a.jpg:large}}\n\n29 Sep 2018 {{https://pbs.twimg.com/media/DoQY-U9XsAAQiED.jpg:large}}\n"
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              3.905999,
-              43.593549
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "name": "stationnement vélo insuffisant"
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              3.881816,
-              43.609424
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "name": "stationnement vélo insuffisant"
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              3.880223,
-              43.609071
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "name": "Stationnements de parents d'élèves de Sainte Thérèse"
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              3.866431,
-              43.613638
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "name": "Poubelle",
-            "description": "02 Nov 2018 {{https://pbs.twimg.com/media/Dq_7nKsWwAAsl6w.jpg}}\n\n02 Nov 2018 {{https://pbs.twimg.com/media/Dq_7j9sWoAAxicv.jpg:large}}"
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              3.915194,
-              43.60257
-            ]
-          }
-        }
-      ],
-      "_umap_options": {
-        "displayOnLoad": true,
-        "browsable": true,
-        "remoteData": {
-          "format": "geojson"
-        },
-        "name": "Signalement Piste Cyclable incivilité",
-        "id": 675843,
-        "iconClass": "Default",
-        "type": "Cluster",
-        "cluster": {
-          "radius": 100
-        },
-        "color": "OrangeRed",
-        "iconUrl": "/uploads/pictogram/police-24_1.png"
-      }
-    },
-    {
-      "type": "FeatureCollection",
       "features": [],
       "_umap_options": {
         "displayOnLoad": true,
@@ -662,6 +400,684 @@
         "cluster": {
           "radius": 100
         }
+      }
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "description": "Vélos de ville, électrique, VTT, route, pliant. Vélos d’occasion. Atelier de réparation. Accessoires vélo. Gravage Bicycode. 7% reduction sur magasin pour les membres de Vélocité Montpellier.\nAdresse: 77 Avenue de Boirargues, 34000 Montpellier, France\nTéléphone: 09 83 21 76 21\nTramway: Rives du Lez\nwww.shcycles.fr/",
+            "name": "Cycles SH"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              3.899696,
+              43.60521
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "RSR Bike",
+            "description": "Vélos fixie. Vélos Beach Cruiser. Atelier de réparation. Accessoires.\nAdresse: 6 Rue Enclos Fermaud\nTéléphone: 06 27 47 58 03\nTramway: Rondelet\nwww.rsr-bike.fr"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              3.873255,
+              43.603501
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "osm_id": 1209126188,
+            "osm_type": "N",
+            "country": "France",
+            "osm_key": "shop",
+            "housenumber": "11",
+            "city": "Montpellier",
+            "street": "Rue Jeanne d'Arc",
+            "osm_value": "bicycle",
+            "postcode": "34000",
+            "name": "BMX Avenue",
+            "state": "Occitania",
+            "description": "Vélos BMX. Accessoires BMX et vêtements.\nAdresse: 11 rue Jeanne d’Arc\nTéléphone: 04 67 73 22 36\nwww.bmxavenue.com"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              3.884305,
+              43.607144
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "osm_id": 604394276,
+            "osm_type": "N",
+            "country": "France",
+            "osm_key": "shop",
+            "housenumber": "41",
+            "city": "Montpellier",
+            "street": "Rue du Pont de Lattes",
+            "osm_value": "bicycle",
+            "postcode": "34000",
+            "name": "Ville et Vélo",
+            "state": "Occitania",
+            "description": "Vélos de ville, hollandais, pliant. Atelier de réparation. Accessoires vélo. \nAdresse: 39 Boulevard de Strasbourg, 34000 Montpellier, France\nTéléphone: 06 98 67 95 12\nTramway: Place Carnot\nhttp://www.double-v.org/"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              3.884293,
+              43.603397
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "osm_id": 1984360171,
+            "osm_type": "N",
+            "country": "France",
+            "osm_key": "shop",
+            "housenumber": "7",
+            "city": "Montpellier",
+            "street": "Rue Raoux",
+            "osm_value": "bicycle",
+            "postcode": "34000",
+            "name": "Uni Re-cycle",
+            "state": "Occitania",
+            "description": "Vélos de ville, électrique, VTT, route, pliant. Atelier de réparation. Accessoires vélo. 5% reduction sur les vélos et 10% réduction (sauf remorques) sur les pieces pour les membres de Vélocité Montpellier.\nAdresse: 7 rue Raoux\nTéléphone: 04 67 84 85 94\nwww.uni-re-cycle.com"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              3.868198,
+              43.602381
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "osm_id": 408562217,
+            "osm_type": "N",
+            "country": "France",
+            "osm_key": "shop",
+            "housenumber": "13",
+            "city": "Montpellier",
+            "street": "Boulevard Pasteur",
+            "osm_value": "bicycle",
+            "postcode": "34000",
+            "name": "Basirico Serge",
+            "state": "Occitania",
+            "description": "Atelier de réparation. Vélos d’occasion.\nAdresse: 13 Boulevard Pasteur\nTéléphone: 04 67 72 12 27\nTramway: Place Albert 1er"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              3.875911,
+              43.615208
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "osm_id": 1466729099,
+            "osm_type": "N",
+            "country": "France",
+            "osm_key": "shop",
+            "housenumber": "85",
+            "city": "Montpellier",
+            "street": "Avenue de Palavas",
+            "osm_value": "bicycle",
+            "postcode": "34070",
+            "name": "Cycles Michel Perez",
+            "state": "Occitania",
+            "description": "Vélos de ville, VTT, route. Atelier de réparation. Prêt de vélo gratuit pendant les réparations.\nAdresse: 85 Avenue de Palavas\nTéléphone: 04 67 65 06 23\nTramway: La Rauze ou Garcia Lorca"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              3.888362,
+              43.595274
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "osm_id": 4397522549,
+            "osm_type": "N",
+            "country": "France",
+            "osm_key": "shop",
+            "housenumber": "35",
+            "city": "Montpellier",
+            "street": "Rue Saint-Guilhem",
+            "osm_value": "bicycle",
+            "postcode": "34000",
+            "name": "Au bon vélo",
+            "state": "Occitania",
+            "description": "Vélos «Vintage» & accessoires, réparation & restauration, en plein cœur de l’Écusson.\nAdresse: 35 rue Saint-Guilhem\nTéléphone: 04 67 58 69 39.\nTramway: Observatoire ou Comédie\nwww.aubonvelo.com"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              3.874158,
+              43.608986
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "osm_id": 2573611657,
+            "osm_type": "N",
+            "country": "France",
+            "osm_key": "place",
+            "housenumber": "6",
+            "city": "Montpellier",
+            "street": "Avenue Bouisson Bertrand",
+            "osm_value": "house",
+            "postcode": "34000",
+            "state": "Occitania",
+            "name": "Cycles & Re-cycle",
+            "description": "Adresse: 6 av Bouisson Bertrand\nTéléphone: 04 34 43 19 10\nTramway: Louis Blanc"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              3.874383,
+              43.616567
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "osm_id": 451007666,
+            "osm_type": "N",
+            "country": "France",
+            "osm_key": "shop",
+            "housenumber": "7 Bis",
+            "city": "Montpellier",
+            "street": "Quai des Tanneurs",
+            "osm_value": "bicycle",
+            "postcode": "34000",
+            "name": "Cyclable - On Avance",
+            "state": "Occitania",
+            "description": "Vélos de ville, voyage, électrique, couchés, cargo. Remorques. Atelier de réparation. Accessoires vélo. 7% reduction sur les accesoires pour les membres de Velocite Montpellier.\nAdresse: 7 Bis Quai des Tanneurs\nTéléphone: 04 67 10 07 77\nTramway: Place Albert 1er\nwww.cyclable.com/les-magasins-adherents/magasin-velo-montpellier"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              3.875661,
+              43.61599
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "M'Velo",
+            "description": "Spécialiste de la mobilité électrique: vélo électrique, trottinette électrique, biporteur, triporteur, vélo cargo. Accessoires. Atelier de réparation pour tout type de vélos. 5% réduction sur magasin (vélos et accessoires) pour les membres de Vélocité Montpellier.\nAdresse : 465 Av. Pont Trinquat 34000 Montpellier\nTéléphone: 09.81.28.99.64 ou 06.01.11.18.17\nTramway: Place Carnot ou Nouvelle Mairie\nwww.mvelo.fr  / https://www.facebook.com/mvelo.fr"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              3.889605,
+              43.599056
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "osm_id": 630662360,
+            "osm_type": "N",
+            "country": "France",
+            "osm_key": "shop",
+            "housenumber": "4",
+            "city": "Montpellier",
+            "street": "Rue Fournarié",
+            "osm_value": "bicycle",
+            "postcode": "34000",
+            "name": "Vélo Solo Cycles",
+            "state": "Occitania",
+            "description": "Vélos électriques. Atelier de réparation. Gravage Bicycode. \nAdresse: 4 Rue Fournarié (Écusson)\nTéléphone: 04 34 22 87 13\nwww.solocycles.fr"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              3.876728,
+              43.611967
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "osm_id": 4894902196,
+            "osm_type": "N",
+            "country": "France",
+            "osm_key": "office",
+            "housenumber": "80",
+            "city": "Montpellier",
+            "street": "Place Georges Frêche",
+            "osm_value": "it",
+            "postcode": "34000",
+            "name": "Overwatt",
+            "state": "Occitania",
+            "description": "Vélos électriques et mobilité electrique (skateboard, scooters, etc) \nAdresse: 80, Place Georges Frêche (nouvelle mairie)\nTéléphone: 04 67 22 02 29\nwww.over-watt.com"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              3.895821,
+              43.599211
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "osm_id": 5186458822,
+            "osm_type": "N",
+            "country": "France",
+            "osm_key": "shop",
+            "housenumber": "13",
+            "city": "Montpellier",
+            "street": "Boulevard Ledru-Rollin",
+            "osm_value": "bicycle",
+            "postcode": "34000",
+            "name": "EbikePremium - Electric Bicycles",
+            "state": "Occitania",
+            "description": "Mobile : +33 (0) 6 82 59 65 82\nwww.ebikepremium.com/"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              3.872991,
+              43.608884
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "osm_id": 2195803117,
+            "osm_type": "N",
+            "country": "France",
+            "osm_key": "shop",
+            "housenumber": "34",
+            "city": "Lattes",
+            "street": "Avenue Marcel Pagnol",
+            "osm_value": "bicycle",
+            "postcode": "34970",
+            "name": "Culture Vélo Montpellier",
+            "state": "Occitania",
+            "description": "Vélos de route, VTT, de ville, électriques. Atelier de réparation. Accessoires vélo.\nAdresse: près CC Carrefour Grand Sud, CGR et Jardiland,\n34 avenue Marcel Pagnol\n34970 Lattes\nArrêt de tramway «Boirargues» ou «ÉcoPôle» (Ligne n°3).\nTéléphone: 04 67 22 23 99\nwww.culturevelo.com/-Montpellier-"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              3.93358,
+              43.584329
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "osm_id": 4528089750,
+            "osm_type": "N",
+            "country": "France",
+            "osm_key": "shop",
+            "city": "Saint-Jean-de-Védas",
+            "street": "Route de Montpellier",
+            "osm_value": "bicycle",
+            "postcode": "34430",
+            "name": "Mondovélo",
+            "state": "Occitania",
+            "description": "Vélos de route, VTT. Atelier de réparation. Accessoires vélo.\nAdresse: Rue du Mas de Grille\n34430 St-Jean-de-Védas\nwww.montpellier.mondovelo.fr"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              3.844853,
+              43.582617
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "osm_id": 4391554026,
+            "osm_type": "N",
+            "country": "France",
+            "osm_key": "shop",
+            "housenumber": "427",
+            "city": "Mauguio",
+            "street": "Rue Hélène Boucher",
+            "osm_value": "bicycle",
+            "postcode": "34130",
+            "name": "Win Bike",
+            "state": "Occitania",
+            "description": "Vélos de route, VTT, Atelier de réparation. Accessoires vélo.\nAdresse: 427 Rue Hélène Boucher\n34130 Mauguio (Fréjorgues-Ouest)\nTéléphone: 04 67 20 07 00\nwww.winbike.fr"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              3.941214,
+              43.582857
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "osm_id": 2689740436,
+            "osm_type": "N",
+            "country": "France",
+            "osm_key": "shop",
+            "city": "Jacou",
+            "osm_value": "bicycle",
+            "postcode": "34830",
+            "name": "Winbike",
+            "state": "Occitania",
+            "description": "Vélos de route, VTT, Atelier de réparation. Accessoires vélo.\nAdresse: 132 avenue de Vendragues\n34830 Jacou\nTéléphone: 04 67 29 12 11\nwww.winbike.fr"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              3.902589,
+              43.66091
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "osm_id": 2195851357,
+            "osm_type": "N",
+            "country": "France",
+            "osm_key": "shop",
+            "housenumber": "1850",
+            "city": "Castelnau-le-Lez",
+            "street": "Avenue de l'Europe",
+            "osm_value": "bicycle",
+            "postcode": "34170",
+            "name": "Bike 34",
+            "state": "Occitania",
+            "description": "Vélos de route, VTT, Atelier de réparation. Accessoires vélo.\nAdresse: 1850 Avenue de l’Europe\n34170 Castelnau-le-Lez\nTéléphone: 04 67 72 85 89\nwww.bike34.com"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              3.918178,
+              43.633113
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "osm_id": 29376548,
+            "osm_type": "W",
+            "extent": [
+              3.9229952,
+              43.6060635,
+              3.924603,
+              43.6047837
+            ],
+            "country": "France",
+            "osm_key": "shop",
+            "housenumber": "1072",
+            "city": "Montpellier",
+            "street": "Rue Georges Méliès",
+            "osm_value": "sports",
+            "postcode": "34000",
+            "name": "Decathlon Montpellier Odysseum",
+            "state": "Occitania",
+            "description": "Vélos de route, VTT, ville. Atelier de réparation. Accessoires et vêtements vélo.\nAdresse: 1072 Rue Georges Méliès (Odysseum)\nTéléphone: 04 99 53 24 24\nTramway: Odysseum"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              3.923794,
+              43.605423
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "osm_id": 3035293422,
+            "osm_type": "N",
+            "country": "France",
+            "osm_key": "shop",
+            "housenumber": "15",
+            "city": "Montpellier",
+            "street": "Passage de l'Horloge",
+            "osm_value": "sports",
+            "postcode": "34000",
+            "name": "Go Sport Montpellier Polygone",
+            "state": "Occitania",
+            "description": "Vélos de ville. Atelier de réparation. Accessoires vélo.\nAdresse: Passage de l’Horloge (Polygone)\nTéléphone :04 67 22 43 45\nTramway: «Du Guesclin» (anciennement «Hôtel de Ville»)"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              3.883642,
+              43.608582
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "osm_id": 1607079907,
+            "osm_type": "N",
+            "country": "France",
+            "osm_key": "shop",
+            "housenumber": "5",
+            "city": "Montpellier",
+            "street": "Rue de la Poésie",
+            "osm_value": "bicycle",
+            "postcode": "34000",
+            "name": "Vieux biclou",
+            "state": "Occitania",
+            "description": "\tLe vieux biclou\nAtelier ouvert a tous pour réparer son vélo (adhésion 25 ou 20€/an)\nAtélier centre: 5 rue de la Poésie, Quartier des Beaux-Arts\nAtélier campus: Bâtiment 1 Université Montpellier, Fac de Sciences, Place Eugène BATAILLON\nwww.vieuxbiclou.org"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              3.882301,
+              43.61723
+            ]
+          }
+        }
+      ],
+      "_umap_options": {
+        "displayOnLoad": true,
+        "browsable": true,
+        "remoteData": {},
+        "name": "Professionnels vélos",
+        "type": "Cluster",
+        "cluster": {
+          "radius": 100
+        },
+        "color": "DarkGreen",
+        "iconUrl": "/uploads/pictogram/museum-24_1.png",
+        "id": 677340
+      }
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Bugarel- sortie de parking 1",
+            "description": "Sortie de parking avec très peu de visibilité directement sur la piste cyclable !"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              3.847626,
+              43.591341
+            ]
+          }
+        }
+      ],
+      "_umap_options": {
+        "displayOnLoad": true,
+        "browsable": true,
+        "name": "Signalement piste cyclable zone dangereuse",
+        "id": 675818,
+        "remoteData": {
+          "from": "12"
+        },
+        "showLabel": false,
+        "labelInteractive": false,
+        "type": "Cluster",
+        "cluster": {
+          "radius": 100
+        },
+        "iconClass": "Default",
+        "iconUrl": "https://cdn4.iconfinder.com/data/icons/sketchdock-ecommerce-icons/alert-triangle-red.png",
+        "color": "OrangeRed"
+      }
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {},
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                3.906605,
+                43.633994
+              ],
+              [
+                3.901198,
+                43.631432
+              ],
+              [
+                3.901756,
+                43.630686
+              ],
+              [
+                3.898215,
+                43.62935
+              ],
+              [
+                3.898323,
+                43.628822
+              ],
+              [
+                3.898001,
+                43.628356
+              ],
+              [
+                3.896799,
+                43.627595
+              ],
+              [
+                3.894997,
+                43.628869
+              ],
+              [
+                3.885641,
+                43.626042
+              ],
+              [
+                3.882294,
+                43.625887
+              ],
+              [
+                3.882465,
+                43.624085
+              ],
+              [
+                3.882895,
+                43.622159
+              ],
+              [
+                3.870449,
+                43.619114
+              ],
+              [
+                3.866158,
+                43.618493
+              ],
+              [
+                3.865299,
+                43.619922
+              ],
+              [
+                3.863239,
+                43.618244
+              ],
+              [
+                3.855686,
+                43.615635
+              ],
+              [
+                3.851309,
+                43.619922
+              ],
+              [
+                3.848391,
+                43.619736
+              ],
+              [
+                3.847103,
+                43.620668
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {},
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              3.859195,
+              43.623394
+            ]
+          }
+        }
+      ],
+      "_umap_options": {
+        "displayOnLoad": true,
+        "browsable": true,
+        "remoteData": {
+          "format": "geojson",
+          "from": "12"
+        },
+        "name": "Signalement Piste Cyclable incivilité",
+        "id": 675843,
+        "iconClass": "Default",
+        "type": "Cluster",
+        "cluster": {
+          "radius": 100
+        },
+        "color": "OrangeRed",
+        "iconUrl": "/uploads/pictogram/police-24_1.png"
       }
     }
   ]
