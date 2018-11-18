@@ -22,6 +22,10 @@ Résumé technique :
 - IOS ou Android pour l'ajout de nouvelle entré lors de son parcours en vélo
 - Stockage des nouvelles entrées via PostgreSQL ??
 
+**Discussion**
+ - [Framavox #JeSuisUnDesDeux](https://framavox.org/invitations/7add865131fcb02384c3)
+ - [Framadoc #JeSuisUnDesDeux](https://mypads.framapad.org/p/lestaches-mr7ulm7z8)
+
 **Map**
  - [Mega carte, accidents, incivilités, parcours velotafeurs, pistes cyclables, et ...](https://umap.openstreetmap.fr/en/map/jesuisundesdeux_261253)
  - [Disponibilités vélos velomag](https://umap.openstreetmap.fr/en/map/velomag-velos-disponibles_262046)
