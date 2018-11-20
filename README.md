@@ -28,6 +28,7 @@ Résumé technique :
 
 **Map**
  - [Mega carte, accidents, incivilités, parcours velotafeurs, pistes cyclables, et ...](https://umap.openstreetmap.fr/en/map/jesuisundesdeux_261253)
+ - [Je veux velotafer](https://umap.openstreetmap.fr/en/map/je-veux-velotafer_266810)
  - [Inventaire pistes cyclables](http://umap.openstreetmap.fr/fr/map/test-details-voies-cyclables-montpellier_267128)
  - [Disponibilités vélos velomag](https://umap.openstreetmap.fr/en/map/velomag-velos-disponibles_262046)
  - [Disponibilités parcages velomag](https://umap.openstreetmap.fr/en/map/velomag-parcages-disponibles_262076)
