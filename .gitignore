@@ -1,1 +1,4 @@
 .virtualenv
+datas/traces/*/*_reduced_trace.gpx
+datas/traces/*/*_junction_trace.gpx
+datas/traces/*/*_privatized_trace.gpx

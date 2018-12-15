@@ -4,7 +4,7 @@
 
 #### Trajets les plus fréquents
 
-<img src="https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/raw/master/datas/traces/charles.dassonville/heatmap_user_montpellier.png" width="50%" >
+<img src="https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/raw/master/datas/traces/charles.dassonville/heatmap_charles.dassonville_montpellier.png" width="50%" >
 
 #### Zones de croisements
 
