@@ -31,7 +31,8 @@ Les graphes ci-dessous sont générés grâce aux dons des traces par les cyclis
 # python strava-to-file/convert.py -d ~/private/projects/jesuisundesdeux/datas/traces -u $(basename $(pwd))
 # cd jesuisundesdeux/datas/traces/
 # ./tool_reduce_gpx_size.sh
-# python jesuisundesdeux_summarize.py -d ~/private/projects/jesuisundesdeux/datas/traces/ -u $(basename $(pwd))
+# cd username_strava_folder
+# python strava-to-file/jesuisundesdeux_summarize.py -d ~/private/projects/jesuisundesdeux/datas/traces/ -u $(basename $(pwd))
 ```
 
 ### Generate heatmap with strava-local-heatmap
@@ -55,7 +56,7 @@ python strava_local_heatmap.py --gpx-dir ~/private/projects/jesuisundesdeux/data
 
 python strava_local_heatmap.py --gpx-dir ~/private/projects/jesuisundesdeux/datas/traces --gpx-filter "**/*_reduced_trace.gpx" --max-tiles $MAXNBTITLES --gpx-bound $BOUNDS --output ~/private/projects/jesuisundesdeux/datas/traces/heatmap_montpellier_all.png --csv-output --no-cdist
 
-TRACEUSERS=(aurelien.tyson bruno.adele charles.dassonville brice.favre)
+TRACEUSERS=(aurelien.tyson bruno.adele charles.dassonville brice.favre eric.erack vincent-xavier.jumel)
 for TRACEUSER in $TRACEUSERS; do
     # France
     BOUNDS=(49.382373 -5.328369 42.867912 11.90918)
