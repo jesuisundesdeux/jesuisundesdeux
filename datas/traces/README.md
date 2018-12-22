@@ -1,8 +1,8 @@
 ### Cyclistes Montpelliérains à Montpellier
 
-Les graphes ci-dessous ont étés permis grace à la mise à disposition des traces des cyclistes ci-dessous
+Les graphes ci-dessous sont générés grâce aux dons des traces par les cyclistes ci-dessous.
 
-[Adelé Bruno](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/bruno.adele/README.md) | [Dassonville Charles](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/charles.dassonville/README.md) | [Tyson Aurelien](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/aurelien.tyson/README.md)
+[Adelé Bruno](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/bruno.adele/README.md) | [Dassonville Charles](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/charles.dassonville/README.md) | [Favre Brice](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/brice.fav re/README.md) | [Tyson Aurelien](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/aurelien.tyson/README.md)
 
 
 #### Trajets les plus fréquents
@@ -24,47 +24,52 @@ Les graphes ci-dessous ont étés permis grace à la mise à disposition des tra
 
 <img src="https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/raw/master/datas/traces/heatmap_france_all.png" width="50%" >
 
-### Generated with strava-local-heatmap
+## Preprare datas
 ```
 # File converted with strava-to-file 
 # cd username_strava_folder
-# python convert.py -d ~/private/projects/jesuisundesdeux/datas/traces -u $(basename $(pwd))
+# python strava-to-file/convert.py -d ~/private/projects/jesuisundesdeux/datas/traces -u $(basename $(pwd))
+# cd jesuisundesdeux/datas/traces/
 # ./tool_reduce_gpx_size.sh
 # python jesuisundesdeux_summarize.py -d ~/private/projects/jesuisundesdeux/datas/traces/ -u $(basename $(pwd))
+```
 
+### Generate heatmap with strava-local-heatmap
+```
+#cd strava-local-heatmap 
 MAXNBTITLES=12
 
 # France
 BOUNDS=(49.382373 -5.328369 42.867912 11.90918)
-#python strava_local_heatmap.py -g ~/private/projects/jesuisundesdeux/datas/traces -f "**/*_reduced_trace.gpx" -m #$MAXNBTITLES -b $BOUNDS -p ~/private/projects/jesuisundesdeux/datas/traces/heatmap_france.png -d #~/private/projects/jesuisundesdeux/datas/traces/heatmap_france.csv
+#python strava_local_heatmap.py --gpx-dir ~/private/projects/jesuisundesdeux/datas/traces --gpx-filter "**/*_reduced_trace.gpx" --max-tiles #$MAXNBTITLES --gpx-bound $BOUNDS --output ~/private/projects/jesuisundesdeux/datas/traces/heatmap_france.png --csv-output 
 
-python strava_local_heatmap.py -g ~/private/projects/jesuisundesdeux/datas/traces -f "**/*_reduced_trace.gpx" -m $MAXNBTITLES -b $BOUNDS -p ~/private/projects/jesuisundesdeux/datas/traces/heatmap_france_all.png -d ~/private/projects/jesuisundesdeux/datas/traces/heatmap_france_all. -a false
+python strava_local_heatmap.py --gpx-dir ~/private/projects/jesuisundesdeux/datas/traces --gpx-filter "**/*_reduced_trace.gpx" --max-tiles $MAXNBTITLES --gpx-bound $BOUNDS --output ~/private/projects/jesuisundesdeux/datas/traces/heatmap_france_all.png --csv-output --no-cdist
 
 
 # Montpellier
 BOUNDS=(43.629366 3.835258 43.576101 3.97533)
-python strava_local_heatmap.py -g ~/private/projects/jesuisundesdeux/datas/traces -f "**/*_reduced_trace.gpx" -m $MAXNBTITLES -b $BOUNDS -p ~/private/projects/jesuisundesdeux/datas/traces/heatmap_montpellier.png -d ~/private/projects/jesuisundesdeux/datas/traces/heatmap_montpellier.csv
+python strava_local_heatmap.py --gpx-dir ~/private/projects/jesuisundesdeux/datas/traces --gpx-filter "**/*_reduced_trace.gpx" --max-tiles $MAXNBTITLES --gpx-bound $BOUNDS --output ~/private/projects/jesuisundesdeux/datas/traces/heatmap_montpellier.png --csv-output
 
-python strava_local_heatmap.py -g ~/private/projects/jesuisundesdeux/datas/traces -f "**/*_junction_trace.gpx" -m $MAXNBTITLES -b $BOUNDS -p ~/private/projects/jesuisundesdeux/datas/traces/heatmap_montpellier_carrefour.png -d ~/private/projects/jesuisundesdeux/datas/traces/heatmap_montpellier_carrefour.csv
+python strava_local_heatmap.py --gpx-dir ~/private/projects/jesuisundesdeux/datas/traces --gpx-filter "**/*_junction_trace.gpx" --max-tiles $MAXNBTITLES --gpx-bound $BOUNDS --output ~/private/projects/jesuisundesdeux/datas/traces/heatmap_montpellier_carrefour.png --csv-output
 
 
-python strava_local_heatmap.py -g ~/private/projects/jesuisundesdeux/datas/traces -f "**/*_reduced_trace.gpx" -m $MAXNBTITLES -b $BOUNDS -p ~/private/projects/jesuisundesdeux/datas/traces/heatmap_montpellier_all.png -d ~/private/projects/jesuisundesdeux/datas/traces/heatmap_montpellier_all.csv -a false
+python strava_local_heatmap.py --gpx-dir ~/private/projects/jesuisundesdeux/datas/traces --gpx-filter "**/*_reduced_trace.gpx" --max-tiles $MAXNBTITLES --gpx-bound $BOUNDS --output ~/private/projects/jesuisundesdeux/datas/traces/heatmap_montpellier_all.png --csv-output --no-cdist
 
-TRACEUSERS=(aurelien.tyson bruno.adele charles.dassonville)
+TRACEUSERS=(aurelien.tyson bruno.adele charles.dassonville brice.favre)
 for TRACEUSER in $TRACEUSERS; do
     # France
     BOUNDS=(49.382373 -5.328369 42.867912 11.90918)
-    python strava_local_heatmap.py -g ~/private/projects/jesuisundesdeux/datas/traces/$TRACEUSER -f "*_reduced_trace.gpx" -m $MAXNBTITLES -b $BOUNDS -p ~/private/projects/jesuisundesdeux/datas/traces/$TRACEUSER/heatmap_${TRACEUSER}_france.png -d ~/private/projects/jesuisundesdeux/datas/traces/$TRACEUSER/heatmap_${TRACEUSER}_france.csv
+    python strava_local_heatmap.py --gpx-dir ~/private/projects/jesuisundesdeux/datas/traces/$TRACEUSER --gpx-filter "*_reduced_trace.gpx" --max-tiles $MAXNBTITLES --gpx-bound $BOUNDS --output ~/private/projects/jesuisundesdeux/datas/traces/$TRACEUSER/heatmap_user_france.png --csv-output
 
-    python strava_local_heatmap.py -g ~/private/projects/jesuisundesdeux/datas/traces/$TRACEUSER -f "*_reduced_trace.gpx" -m $MAXNBTITLES -b $BOUNDS -p ~/private/projects/jesuisundesdeux/datas/traces/$TRACEUSER/heatmap_${TRACEUSER}_france_all.png -d ~/private/projects/jesuisundesdeux/datas/traces/$TRACEUSER/heatmap_${TRACEUSER}_france_all.csv -a false
+    python strava_local_heatmap.py --gpx-dir ~/private/projects/jesuisundesdeux/datas/traces/$TRACEUSER --gpx-filter "*_reduced_trace.gpx" --max-tiles $MAXNBTITLES --gpx-bound $BOUNDS --output ~/private/projects/jesuisundesdeux/datas/traces/$TRACEUSER/heatmap_user_france_all.png --csv-output --no-cdist
 
     # Montpellier
     BOUNDS=(43.629366 3.835258 43.576101 3.97533)
-    python strava_local_heatmap.py -g ~/private/projects/jesuisundesdeux/datas/traces/$TRACEUSER -f "*_reduced_trace.gpx" -m $MAXNBTITLES -b $BOUNDS -p ~/private/projects/jesuisundesdeux/datas/traces/$TRACEUSER/heatmap_${TRACEUSER}_montpellier.png -d ~/private/projects/jesuisundesdeux/datas/traces/$TRACEUSER/heatmap_${TRACEUSER}_montpellier.csv
+    python strava_local_heatmap.py --gpx-dir ~/private/projects/jesuisundesdeux/datas/traces/$TRACEUSER --gpx-filter "*_reduced_trace.gpx" --max-tiles $MAXNBTITLES --gpx-bound $BOUNDS --output ~/private/projects/jesuisundesdeux/datas/traces/$TRACEUSER/heatmap_user_montpellier.png --csv-output
 
-    python strava_local_heatmap.py -g ~/private/projects/jesuisundesdeux/datas/traces/$TRACEUSER -f "*_junction_trace.gpx" -m $MAXNBTITLES -b $BOUNDS -p ~/private/projects/jesuisundesdeux/datas/traces/$TRACEUSER/heatmap_${TRACEUSER}_montpellier_carrefour.png -d ~/private/projects/jesuisundesdeux/datas/traces/$TRACEUSER/heatmap_${TRACEUSER}_montpellier_carrefour.csv
+    python strava_local_heatmap.py --gpx-dir ~/private/projects/jesuisundesdeux/datas/traces/$TRACEUSER --gpx-filter "*_junction_trace.gpx" --max-tiles $MAXNBTITLES --gpx-bound $BOUNDS --output ~/private/projects/jesuisundesdeux/datas/traces/$TRACEUSER/heatmap_user_montpellier_carrefour.png --csv-output
 
 
-    python strava_local_heatmap.py -g ~/private/projects/jesuisundesdeux/datas/traces/$TRACEUSER -f "*_reduced_trace.gpx" -m $MAXNBTITLES -b $BOUNDS -p ~/private/projects/jesuisundesdeux/datas/traces/$TRACEUSER/heatmap_${TRACEUSER}_montpellier_all.png -d ~/private/projects/jesuisundesdeux/datas/traces/$TRACEUSER/heatmap_${TRACEUSER}_montpellier_all.csv -a false
+    python strava_local_heatmap.py --gpx-dir ~/private/projects/jesuisundesdeux/datas/traces/$TRACEUSER --gpx-filter "*_reduced_trace.gpx" --max-tiles $MAXNBTITLES --gpx-bound $BOUNDS --output ~/private/projects/jesuisundesdeux/datas/traces/$TRACEUSER/heatmap_user_montpellier_all.png --csv-output --no-cdist
 done
 ```

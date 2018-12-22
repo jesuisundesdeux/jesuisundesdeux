@@ -2,7 +2,7 @@
 
 # https://www.routeconverter.de/stable-releases/en
 
-
+eccho "Reducing ..."
 for orig in $(ls */*_converted_trace.gpx.gz); do
     gpxname="${orig/\.gz/}"
 
@@ -11,7 +11,7 @@ for orig in $(ls */*_converted_trace.gpx.gz); do
     reduced=$(echo $orig | sed 's/_converted_trace\.gpx\.gz/_reduced_trace.gpx/')
     junction=$(echo $orig | sed 's/_converted_trace\.gpx\.gz/_junction_trace.gpx/')
 
-    if [ ! -f $privatized -o ! -f $reduced -o ! -f junction ]; then
+    if [ ! -f $privatized -o ! -f $reduced -o ! -f $junction ]; then
         echo "$orig $unziped"
         gunzip -c $orig > $unziped
 
