@@ -1,5 +1,10 @@
 ### Cyclistes Montpelliérains à Montpellier
 
+Les graphes ci-dessous ont étés permis grace à la mise à disposition des traces des cyclistes ci-dessous
+
+[Adelé Bruno](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/bruno.adele/README.md) | [Dassonville Charles](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/charles.dassonville/README.md) | [Tyson Aurelien](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/aurelien.tyson/README.md)
+
+
 #### Trajets les plus fréquents
 
 <img src="https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/raw/master/datas/traces/heatmap_montpellier.png" width="50%" >
@@ -18,14 +23,6 @@
 #### Ensembles des trajets
 
 <img src="https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/raw/master/datas/traces/heatmap_france_all.png" width="50%" >
-
-### Les cyclistes Montpelliérains
-
-[Adelé Bruno](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/bruno.adele/README.md)
-
-[Dassonville Charles](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/charles.dassonville/README.md)
-
-[Tyson Aurelien](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/aurelien.tyson/README.md)
 
 ### Generated with strava-local-heatmap
 ```
