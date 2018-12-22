@@ -2,7 +2,7 @@
 
 Les graphes ci-dessous sont générés grâce aux dons des traces par les cyclistes ci-dessous.
 
-[Adelé Bruno](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/bruno.adele/README.md) | [Dassonville Charles](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/charles.dassonville/README.md) | [Favre Brice](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/brice.fav re/README.md) | [Tyson Aurelien](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/aurelien.tyson/README.md)
+[Adelé Bruno](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/bruno.adele/README.md) | [Dassonville Charles](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/charles.dassonville/README.md) | [Favre Brice](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/brice.favre/README.md) | [Tyson Aurelien](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/aurelien.tyson/README.md)
 
 
 #### Trajets les plus fréquents
