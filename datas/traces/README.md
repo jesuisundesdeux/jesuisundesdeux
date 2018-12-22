@@ -33,6 +33,7 @@
 # cd username_strava_folder
 # python convert.py -d ~/private/projects/jesuisundesdeux/datas/traces -u $(basename $(pwd))
 # ./tool_reduce_gpx_size.sh
+# python jesuisundesdeux_summarize.py -d ~/private/projects/jesuisundesdeux/datas/traces/ -u $(basename $(pwd))
 
 MAXNBTITLES=12
 

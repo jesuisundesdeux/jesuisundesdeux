@@ -1,16 +1,10 @@
-# Charles Dassonville
+# Bruno Adelé
 
 ## Résumé
 
-Distance totale parcourue pour toutes les activitées **8226 Km**
+Distance totale parcourue pour toutes les activitées **{{TOTALDISTANCE}} Km**
 
-|   year |   Hike |   Ride |   Run |   Walk |
-|-------:|-------:|-------:|------:|-------:|
-|   2014 |    0   |    0   |  12.7 |    0   |
-|   2015 |    0   |  871.6 |  47.1 |    0   |
-|   2016 |    0   |  228.3 |  62.3 |  130.5 |
-|   2017 |    0   |  263.9 |  29.8 |  135.4 |
-|   2018 |    8.8 | 6429.9 |   0   |    6.8 |
+{{SUMMARY}}
 
 <img src="summary_user.png" width="50%" >
 
