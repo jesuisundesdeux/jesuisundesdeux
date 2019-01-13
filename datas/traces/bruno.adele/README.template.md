@@ -2,9 +2,9 @@
 
 ## Résumé
 
-Distance totale parcourue pour toutes les activitées **{{TOTALDISTANCE}} Km**
+Distance totale parcourue pour toutes les activitées **{{DISTANCEALLACTIVITIES}} Km**
 
-{{SUMMARY}}
+{{SUMMARYALLACTIVITIES}}
 
 <img src="https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/raw/master/datas/traces/bruno.adele/summary.png" width="50%" >
 

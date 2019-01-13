@@ -2,9 +2,9 @@
 
 ## Résumé
 
-Distance totale parcourue pour toutes les activitées **{{TOTALDISTANCE}} Km**
+Distance totale parcourue pour toutes les activitées **{{DISTANCEALLACTIVITIES}} Km**
 
-{{SUMMARY}}
+{{SUMMARYALLACTIVITIES}}
 
 <img src="summary_user.png" width="50%" >
 

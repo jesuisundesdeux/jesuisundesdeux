@@ -4,7 +4,7 @@ Les graphes ci-dessous sont générés grâce aux dons des traces par les cyclis
 
 {{AUTHORS}}
 
-[Adelé Bruno](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/bruno.adele/README.md) | [Blanchard Erick](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/erick.blanchard/README.md) | [Bob Seb](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/seb.bob/README.md) | [Dassonville Charles](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/charles.dassonville/README.md) | [Erack Eric](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/eric.erack/README.md) | [Favre Brice](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/brice.favre/README.md) | [Tyson Aurelien](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/aurelien.tyson/README.md)
+[Adelé Bruno](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/bruno.adele/README.md) | [Blanchard Erick](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/erick.blanchard/README.md) | [Bob Seb](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/seb.bob/README.md) | [Bonnal Aurelien](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/aurelien.bonnal/README.md) |  [Dassonville Charles](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/charles.dassonville/README.md) | [Erack Eric](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/eric.erack/README.md) | [Favre Brice](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/brice.favre/README.md) | [Tyson Aurelien](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/aurelien.tyson/README.md)
 
 
 #### Trajets les plus fréquents
@@ -30,11 +30,12 @@ Les graphes ci-dessous sont générés grâce aux dons des traces par les cyclis
 ```
 # File converted with strava-to-file 
 # cd username_strava_folder
+# source strava-to-file/.virtualenv/bin/activate
 # python strava-to-file/convert.py -d ~/private/projects/jesuisundesdeux/datas/traces -u $(basename $(pwd))
-# cd jesuisundesdeux/datas/traces/
+jesuisundesdeux/datas/traces/
 # ./tool_reduce_gpx_size.sh
-# cd username_strava_folder
-# python strava-to-file/jesuisundesdeux_summarize.py -d ~/private/projects/jesuisundesdeux/datas/traces/ -u $(basename $(pwd))
+# source strava-to-file/.virtualenv/bin/activate
+# python strava-to-file/jesuisundesdeux_summarize.py -d ~/private/projects/jesuisundesdeux/datas/traces/ -u (basename $(pwd))
 ```
 
 ### Generate heatmap with strava-local-heatmap
@@ -59,7 +60,6 @@ python strava_local_heatmap.py --gpx-dir ~/private/projects/jesuisundesdeux/data
 
 python strava_local_heatmap.py --gpx-dir ~/private/projects/jesuisundesdeux/datas/traces --gpx-filter "**/*_reduced_trace.gpx" --max-tiles $MAXNBTITLES --gpx-bound $BOUNDSMPT --output ~/private/projects/jesuisundesdeux/datas/traces/heatmap_montpellier_all.png --csv-output --no-cdist
 
-TRACEUSERS=(aurelien.tyson bruno.adele charles.dassonville brice.favre eric.erack erick.blanchard)
 TRACEUSERS=($(ls ~/private/projects/jesuisundesdeux/datas/traces -p | egrep '/$' | sed 's/.$//'))
 for TRACEUSER in $TRACEUSERS; do
     python strava_local_heatmap.py --gpx-dir ~/private/projects/jesuisundesdeux/datas/traces/$TRACEUSER --gpx-filter "*_reduced_trace.gpx" --max-tiles $MAXNBTITLES --gpx-bound $BOUNDSFRANCE --output ~/private/projects/jesuisundesdeux/datas/traces/$TRACEUSER/heatmap_user_france.png --csv-output
@@ -68,7 +68,7 @@ for TRACEUSER in $TRACEUSERS; do
 
     python strava_local_heatmap.py --gpx-dir ~/private/projects/jesuisundesdeux/datas/traces/$TRACEUSER --gpx-filter "*_reduced_trace.gpx" --max-tiles $MAXNBTITLES --gpx-bound $BOUNDSMPT --output ~/private/projects/jesuisundesdeux/datas/traces/$TRACEUSER/heatmap_user_montpellier.png --csv-output
 
-    python strava_local_heatmap.py --gpx-dir ~/private/projects/jesuisundesdeux/datas/traces/$TRACEUSER --gpx-filter "*_junction_trace.gpx" --max-tiles $MAXNBTITLES --gpx-bound $BOUNDSMPTv --output ~/private/projects/jesuisundesdeux/datas/traces/$TRACEUSER/heatmap_user_montpellier_carrefour.png --csv-output
+    python strava_local_heatmap.py --gpx-dir ~/private/projects/jesuisundesdeux/datas/traces/$TRACEUSER --gpx-filter "*_junction_trace.gpx" --max-tiles $MAXNBTITLES --gpx-bound $BOUNDSMPT --output ~/private/projects/jesuisundesdeux/datas/traces/$TRACEUSER/heatmap_user_montpellier_carrefour.png --csv-output
 
 
     python strava_local_heatmap.py --gpx-dir ~/private/projects/jesuisundesdeux/datas/traces/$TRACEUSER --gpx-filter "*_reduced_trace.gpx" --max-tiles $MAXNBTITLES --gpx-bound $BOUNDSMPT --output ~/private/projects/jesuisundesdeux/datas/traces/$TRACEUSER/heatmap_user_montpellier_all.png --csv-output --no-cdist
