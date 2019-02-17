@@ -4,7 +4,7 @@ Les graphes ci-dessous sont générés grâce aux dons des traces par les cyclis
 
 {{AUTHORS}}
 
-[Adelé Bruno](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/bruno.adele/README.md) | [Blanchard Erick](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/erick.blanchard/README.md) | [Bob Seb](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/seb.bob/README.md) | [Bonnal Aurelien](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/aurelien.bonnal/README.md) |  [Dassonville Charles](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/charles.dassonville/README.md) | [Erack Eric](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/eric.erack/README.md) | [Favre Brice](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/brice.favre/README.md) | [Girard Thomas](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/thomas.girard/README.md) | [Tyson Aurelien](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/aurelien.tyson/README.md)
+[Adelé Bruno](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/bruno.adele/README.md) | [Blanchard Erick](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/erick.blanchard/README.md) | [Bob Seb](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/seb.bob/README.md) | [Bonnal Aurelien](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/aurelien.bonnal/README.md) | [Brousse Cédric](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/cedric.brousse/README.md) | [Dassonville Charles](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/charles.dassonville/README.md) | [Erack Eric](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/eric.erack/README.md) | [Favre Brice](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/brice.favre/README.md) | [Girard Thomas](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/thomas.girard/README.md) | [Tyson Aurelien](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/aurelien.tyson/README.md)
 
 
 #### Trajets les plus fréquents
@@ -34,7 +34,8 @@ Les graphes ci-dessous sont générés grâce aux dons des traces par les cyclis
 # python strava-to-file/convert.py -d ~/private/projects/jesuisundesdeux/datas/traces -u $(basename $(pwd))
 # cd jesuisundesdeux/datas/traces/
 # ./tool_reduce_gpx_size.sh
-# source strava-to-file/.virtualenv/bin/activate
+# Add template to  ~/private/projects/jesuisundesdeux/datas/traces/username_folder
+# cd username_strava_folder
 # python strava-to-file/jesuisundesdeux_summarize.py -d ~/private/projects/jesuisundesdeux/datas/traces/ -u (basename $(pwd))
 ```
 
