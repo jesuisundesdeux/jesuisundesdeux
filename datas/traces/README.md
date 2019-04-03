@@ -2,9 +2,17 @@
 
 Les graphes ci-dessous sont générés grâce aux dons des traces par les cyclistes ci-dessous.
 
-{{AUTHORS}}
-
-[Adelé Bruno](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/bruno.adele/README.md) | [Blanchard Erick](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/erick.blanchard/README.md) | [Bob Seb](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/seb.bob/README.md) | [Bonnal Aurelien](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/aurelien.bonnal/README.md) | [Brousse Cédric](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/cedric.brousse/README.md) | [Dassonville Charles](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/charles.dassonville/README.md) | [Erack Eric](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/eric.erack/README.md) | [Favre Brice](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/brice.favre/README.md) | [Girard Thomas](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/thomas.girard/README.md) | [Tyson Aurelien](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/aurelien.tyson/README.md)
+[Adelé Bruno](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/bruno.adele/README.md) |&nbsp;
+[Blanchard Erick](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/erick.blanchard/README.md) |&nbsp; 
+[Bob Seb](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/seb.bob/README.md) |&nbsp; 
+[Bonnal Aurelien](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/aurelien.bonnal/README.md) |&nbsp; 
+[Brousse Cédric](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/cedric.brousse/README.md) |&nbsp; 
+[Dassonville Charles](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/charles.dassonville/README.md) |&nbsp; 
+[Erack Eric](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/eric.erack/README.md) |&nbsp; 
+[Favre Brice](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/brice.favre/README.md) |&nbsp; 
+[Girard Thomas](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/thomas.girard/README.md) |&nbsp; 
+[Amandine Du Lac](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/amandine.du.lac/README.md) |&nbsp; 
+[Tyson Aurelien](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/aurelien.tyson/README.md)
 
 
 #### Trajets les plus fréquents
