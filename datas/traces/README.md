@@ -2,17 +2,17 @@
 
 Les graphes ci-dessous sont générés grâce aux dons des traces par les cyclistes ci-dessous.
 
-[Adelé Bruno](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/bruno.adele/README.md) |&nbsp;
-[Blanchard Erick](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/erick.blanchard/README.md) |&nbsp; 
-[Bob Seb](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/seb.bob/README.md) |&nbsp; 
-[Bonnal Aurelien](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/aurelien.bonnal/README.md) |&nbsp; 
-[Brousse Cédric](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/cedric.brousse/README.md) |&nbsp; 
-[Dassonville Charles](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/charles.dassonville/README.md) |&nbsp; 
-[Erack Eric](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/eric.erack/README.md) |&nbsp; 
-[Favre Brice](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/brice.favre/README.md) |&nbsp; 
-[Girard Thomas](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/thomas.girard/README.md) |&nbsp; 
-[Amandine Du Lac](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/amandine.du.lac/README.md) |&nbsp; 
-[Tyson Aurelien](https://gitlab.com/JeSuisUnDesDeux/jesuisundesdeux/blob/master/datas/traces/aurelien.tyson/README.md)
+[Adelé Bruno](bruno.adele/README.md) |&nbsp;
+[Blanchard Erick](erick.blanchard/README.md) |&nbsp; 
+[Bob Seb](seb.bob/README.md) |&nbsp; 
+[Bonnal Aurelien](aurelien.bonnal/README.md) |&nbsp; 
+[Brousse Cédric](cedric.brousse/README.md) |&nbsp; 
+[Dassonville Charles](charles.dassonville/README.md) |&nbsp; 
+[Erack Eric](eric.erack/README.md) |&nbsp; 
+[Favre Brice](brice.favre/README.md) |&nbsp; 
+[Girard Thomas](thomas.girard/README.md) |&nbsp; 
+[Amandine Du Lac](amandine.du.lac/README.md) |&nbsp; 
+[Tyson Aurelien](traces/aurelien.tyson/README.md)
 
 
 #### Trajets les plus fréquents
