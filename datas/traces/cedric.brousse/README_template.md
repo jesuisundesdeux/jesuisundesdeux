@@ -6,6 +6,12 @@ Distance totale parcourue pour toutes les activitées **{{DISTANCEALLACTIVITIES}
 
 {{SUMMARYALLACTIVITIES}}
 
+Comparaison des économies entre un velo+frais (**{{FRAIS}} €**) et un véhicule consommant **{{LITRES}} l**/100km pour un prix de **{{EUROS}} €** pour 100Km.
+
+Sur l'ensenble des trajets vélo, **{{CO2}} kg** d'émission de CO2 ont été évités et une économie de **{{ECONOMY}} €** a pu être réalisé.
+
+{{SUMMARYECONOMY}}
+
 <img src="summary_user.png" width="50%" >
 
 ## Montpellier
